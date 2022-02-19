@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Phần đầu -->
+<head>
+    <meta charset="UTF-8">
+    <title>Bài ASM giai đoạn 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="asm.css">
+   
+</head>
+<!-- Phần thân -->
+<body>
+    
+    <div class="app">
+<!-- phần header -->
+        <header class="header">
+ <!-- list đầu trang -->
+            <div class="grid">
+                <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--separate">Chào mừng đến với CPT-Shop : </li>
+                    <li class="header__navbar-item">Chuyên bán giàu Nam Nữ</li>
+                </ul>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">Thông báo</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">Trợ giúp</a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong"><a href="/ASM/Dangki.html">Đăng ký |</a></li>
+                    <li class="header__navbar-item header__navbar-item--strong"><a href="/ASM/Dangnhap.html">Đăng nhập</a></li>
+                </ul>
+                </nav>
+            </div>
+<!-- phần thanh tìm kiếm -->
+            <nav class="header__width__search grid">
+                    <div class="header__logo1">
+                        <img src="/ASM/ima/CTMP.png" alt="">
+                    </div>
+                    <div class="header__search">
+                       <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm">
+                      
+                      
+                    </div>
+                    <div class="header__logo2">
+                        <img src="/ASM/ima/CTMP.png" alt="">
+                    </div>
+                </nav>
+        </header>
+<!-- danh mục -->
+        <div class="app-container">
+                <div class="grid">
+                    <div class="grid-row">
+                        <div class="grid__column2">
+                            <div class="category">
+                                <h3 class="category__heading">Danh mục
+                                </h3>
+                                <ul class="category-list">
+                                    <li class="category-item">
+                                       
+                                    <a href="/ASM/index.html" class="category-item-link">Trang chủ</a>
+                                
+                                </li>
+                                    <li class="category-item">
+                                       
+                                        <a href="/ASM/giaynam.html" class="category-item-link">Giày Nam</a>
+                                    
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="/ASM/giaynu.html" class="category-item-link"   >Giày nữ</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="/ASM/giaythethao.html" class="category-item-link">Giày thể thao</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="/ASM/bot.html" class="category-item-link">Boot</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+<!-- sản phẩm -->
+                        <div class="grid__column10">
+<!-- Mục chọn sản phẩm -->
+                            <div class="home-filter">
+                                <span class="home-filter__label">Hãng Giày</span>
+                                <button class="btn"><a href="/ASM/Nike.html">Nike</a></button>
+                                <button class="btn"><a href="/ASM/Adidas.html">Adidas</a></button>
+                                <button class="btn"><a href="/ASM/Balenciaga.html">Balenciaga</a></button>
+                                <button class="btn"><a href="/ASM/Vans.html">Vans</a></button>
+                            </div>
+<!-- Sản phẩm -->         
+                            <div class="home__product">
+                                
+                                <div class="grid__row">
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM//ima/31thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Thể Thao Nữ Màu Trắng Bằng Da Không Bong Tróc Cao 4cm Đế Êm Nhẹ S352</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">319.000đ</span>
+                                                <span class="home__product-item__price-current">350.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">9%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/32thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">GIÀY THỂ THAO DÁNG CONVERSE CHO BÉ TRAI VÀ BÉ GÁI T11 ĐEN</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">230.700đ</span>
+                                                <span class="home__product-item__price-current">460.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">50%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/33thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày thể thao nữ ABC</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">155.000đ</span>
+                                                <span class="home__product-item__price-current">310.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">50%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/34thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Thể Thao Nam MWC NATT - 5315   </h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">780.000đ</span>
+                                                <span class="home__product-item__price-current">1.200.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">35%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/35thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">GIÀY THỂ THAO TRẮNG CHO BÉ TRAI, BÉ GÁI HỌC SINH TIỂU TRUNG HỌC GB03</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">169.000đ</span>
+                                                <span class="home__product-item__price-current">231.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">27%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/36thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Thể Thao Nữ Kiểu Mới 2019 - TTN32FD4</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">145.000đ</span>
+                                                <span class="home__product-item__price-current">199.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">28%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/37thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">GIÀY THỂ THAO NỮ THỜI TRANG HÀN QUỐC COG18</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">175.000đ</span>
+                                                <span class="home__product-item__price-current">250.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">30%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/38thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Sneaker thể thao nam G5 CONXEGN - Màu đen 44</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">650.000đ</span>
+                                                <span class="home__product-item__price-current">950.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">32%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/39thethao.jpg    );"></div>
+                                            <h4 class="home__product-item__name">Giày Thể Thao Domba High Point White/Black H-9111 Size 39</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">880.000đ</span>
+                                                <span class="home__product-item__price-current">1.300.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">32%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/40thethao.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Thể Thao Nữ Đẹp 2021 – BH 24 Tháng</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">145.000đ</span>
+                                                <span class="home__product-item__price-current">200.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">28%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div>
+                <h5>FPT Polytechnic - Nhóm CPT - Lớp IT17309 - Email: Mailcongviecfpt@gmail.com</h5>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>

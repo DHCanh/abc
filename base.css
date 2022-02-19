@@ -1,0 +1,42 @@
+:root{
+    --white-color: #fff ;
+    --black-color: #000;
+    --text-color: #333;
+}
+*{
+    box-sizing: inherit;
+
+}
+html
+{
+    font-size: 62.5%;
+    /* 1 rem bằng 10px */
+    /* 100% được hiểu là 16px */
+    line-height: 1.6rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row{
+    /* khi thẻ nào có chứa class này thì nó sẽ nằm trên cùng một hàng và nếu vượt quá độ dài thì nó sẽ tự động xuống hàng */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid__column2{
+    width: 16.677%;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+
+}
+.grid__column10{
+    width: 83%;
+    float: right;
+}

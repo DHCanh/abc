@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Phần đầu -->
+<head>
+    <meta charset="UTF-8">
+    <title>Bài ASM giai đoạn 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="asm.css">
+   
+</head>
+<!-- Phần thân -->
+<body>
+    
+    <div class="app">
+<!-- phần header -->
+        <header class="header">
+ <!-- list đầu trang -->
+            <div class="grid">
+                <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--separate">Chào mừng đến với CPT-Shop : </li>
+                    <li class="header__navbar-item">Chuyên bán giàu Nam Nữ</li>
+                </ul>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">Thông báo</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">Trợ giúp</a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong"><a href="/ASM/Dangki.html">Đăng ký |</a></li>
+                    <li class="header__navbar-item header__navbar-item--strong"><a href="/ASM/Dangnhap.html">Đăng nhập</a></li>
+                </ul>
+                </nav>
+            </div>
+<!-- phần thanh tìm kiếm -->
+            <nav class="header__width__search grid">
+                    <div class="header__logo1">
+                        <img src="/ASM/ima/CTMP.png" alt="">
+                    </div>
+                    <div class="header__search">
+                       <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm">
+                      
+                      
+                    </div>
+                    <div class="header__logo2">
+                        <img src="/ASM/ima/CTMP.png" alt="">
+                    </div>
+                </nav>
+        </header>
+<!-- danh mục -->
+        <div class="app-container">
+                <div class="grid">
+                    <div class="grid-row">
+                        <div class="grid__column2">
+                            <div class="category">
+                                <h3 class="category__heading">Danh mục
+                                </h3>
+                                <ul class="category-list">
+                                    <li class="category-item">
+                                       
+                                    <a href="/ASM/index.html" class="category-item-link">Trang chủ</a>
+                                
+                                </li>
+                                    <li class="category-item">
+                                       
+                                        <a href="/ASM/giaynam.html" class="category-item-link">Giày Nam</a>
+                                    
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="/ASM/giaynu.html" class="category-item-link"   >Giày nữ</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="/ASM/giaythethao.html" class="category-item-link">Giày thể thao</a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="/ASM/bot.html" class="category-item-link">Boot</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+<!-- sản phẩm -->
+                        <div class="grid__column10">
+<!-- Mục chọn sản phẩm -->
+                            <div class="home-filter">
+                                <span class="home-filter__label">Hãng Giày</span>
+                                <button class="btn"><a href="/ASM/Nike.html">Nike</a></button>
+                                <button class="btn"><a href="/ASM/Adidas.html">Adidas</a></button>
+                                <button class="btn"><a href="/ASM/Balenciaga.html">Balenciaga</a></button>
+                                <button class="btn"><a href="/ASM/Vans.html">Var</a></button>
+                            </div>
+<!-- Sản phẩm -->         
+                            <div class="home__product">
+                                
+                                <div class="grid__row">
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM//ima/31bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Bốt Nữ Kéo Khóa Cá Tính Laceva BS01</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">199.000đ</span>
+                                                <span class="home__product-item__price-current">399.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">51%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/32bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Boot nữ thời trang cá tính B118 (Đen)</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">198.000đ</span>
+                                                <span class="home__product-item__price-current">249.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">21%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/33bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày bot nữ</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">370.000đ</span>
+                                                <span class="home__product-item__price-current">900.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">59%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/34bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày bốt len đế gương cao 7cm đi tôn dáng xinh ấm chân dễ mix đồ </h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">170.860đ</span>
+                                                <span class="home__product-item__price-current">230.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">26%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/35bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Boot Nam MWC NABO- 8026</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">190.000đ</span>
+                                                <span class="home__product-item__price-current">220.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">14%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/36bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">GIÀY BOOT CỔ NGẮN CHO BÉ TRAI BÉ GÁI 3 - 12 TUỔI KIỂU DÁNG THỂ THAO PHONG CÁCH HÀN GC48</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">599.000đ</span>
+                                                <span class="home__product-item__price-current">870.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">32%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/37bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Bốt đế bánh mì 8cm - G1257</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">239.000đ</span>
+                                                <span class="home__product-item__price-current">383.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">38%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/38bot.jpeg);"></div>
+                                            <h4 class="home__product-item__name">Giày boot martin trắng</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">149.000đ</span>
+                                                <span class="home__product-item__price-current">260.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">43%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/39bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">GIÀY BOOT BÉ GÁI CAO GÓT PHONG CÁCH HÀN QUỐC CAO 3CM PHỐI MÀU ĐỘC ĐÁO GC52</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">343.000đ</span>
+                                                <span class="home__product-item__price-current">425.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">19%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__column2">
+                                        <a class="home__product-item" href="#">
+                                            <div class="home__product-item__img" style="background-image: url(/ASM/ima/40bot.jpg);"></div>
+                                            <h4 class="home__product-item__name">Giày Tây Cổ Lửng Nam Phong Cách Châu Âu – Tom Boots</h4>
+                                            <div class="home__product-item__price">
+                                                <span class="home__product-item__price-old">179.000đ</span>
+                                                <span class="home__product-item__price-current">219.000đ</span>
+                                            </div>
+                                           <div class="sale-off">
+                                               <span class="sale-off-percent">19%</span>
+                                               <span class="sale-off-label">GIẢM</span>
+                                           </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div>
+                <h5>FPT Polytechnic - Nhóm CPT - Lớp IT17309 - Email: Mailcongviecfpt@gmail.com</h5>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>
